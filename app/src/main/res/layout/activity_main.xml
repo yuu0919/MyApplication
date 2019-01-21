@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="327dp"
+        android:layout_height="45dp"
+        android:text="@string/button"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="184dp"
+        android:layout_height="60dp"
+        android:text="身長(cm)"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="184dp"
+        android:layout_height="60dp"
+        android:text="体重(kg)"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="158dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="158dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        tools:layout_editor_absoluteY="148dp" />
+
+</android.support.constraint.ConstraintLayout>
