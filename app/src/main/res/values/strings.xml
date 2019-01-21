@@ -1,7 +1,4 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name= "text">Hello</string>
-    <string name="dialog_title">結果を表示します</string>
-    <string name="dialog_message">閉じてください</string>
-    <string name="button">--計算--</string>
+    <string name="app_name">BMI計算機</string>
+    <string name="button">BMI計算</string>
 </resources>
